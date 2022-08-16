@@ -77,3 +77,11 @@
 #### Day 2-4 (2022/8/15)
  - 04.Show Scene에 Charactor 만들기 (완료) / 제품 설명 UI 띄우기 / 05.Detail Scene Load 필요
  - 05.Detail Scene 필요 (제품 상세 모델링)
+### 8월 3-4주차 토론, 해결해야하는 내용 Scene 별로
+ - 전체적 문제 : Scene UI배치, Prefab Modeling, VR Controller 띄우기
+ - 01.Intro : 로그인 UI를 클릭시 나타나게 하기
+ - 02.Server : UI 위치에 따른 마우스 클릭 위치가 다름. UI 위치 조정 필요
+ - 03.Lobby : UI를 두개로 구성? 1. 방 리스트 UI 2. Join, Create UI
+ - 04.Show : 캐릭터가 VR로 움직여지는지 / 사진들 마다 UI 배치, 버튼 클릭시 다음 Scene로 넘어가기, 결제 UI 띄우기 / 제품 상세 설명 UI 만들기
+ - 05.Detail(1~5) : 제품 3D 모습을 볼 수 있게 배치하기
+
