@@ -74,4 +74,6 @@
  - 04.Show 메인 전시장/회의실이 있는 ShowRoom에 접속
  - Canvas 를 WorldSpace로 구성, UI 맞춰넣기 (쉽지 않음.)
  - Blender로 각 Scene에 맞는 모델링 하기
- - 가상키보드 만들기!
+#### Day 2-4 (2022/8/15)
+ - 04.Show Scene에 Charactor 만들기 (완료) / 제품 설명 UI 띄우기 / 05.Detail Scene Load 필요
+ - 05.Detail Scene 필요 (제품 상세 모델링)
