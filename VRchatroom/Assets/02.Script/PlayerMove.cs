@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviourPun, IPunObservable
     public float rotSpeed = 200.0f;
     public GameObject cameraRig;
     public Transform myCharactor;
-    public Animator anim;
+    //public Animator anim;
     public Text nameText;
 
     Vector3 setPos;
@@ -46,14 +46,14 @@ public class PlayerMove : MonoBehaviourPun, IPunObservable
                 myCharactor.rotation = Quaternion.LookRotation(dir);
             }
 
-            anim.SetFloat("Speed", magnitude);
+            //anim.SetFloat("Speed", magnitude);
         }
         else
         {
             transform.position = Vector3.Lerp(transform.position, setPos, Time.deltaTime * 20.0f);
             myCharactor.rotation = Quaternion.Lerp(myCharactor.rotation, setRot, Time.deltaTime * 20.0f);
 
-            anim.SetFloat("Speed", dir_speed);
+            //anim.SetFloat("Speed", dir_speed);
         }
     }
 
@@ -73,7 +73,7 @@ public class PlayerMove : MonoBehaviourPun, IPunObservable
         {
             stream.SendNext(transform.position);
             stream.SendNext(myCharactor.rotation);
-            stream.SendNext(anim.GetFloat("Speed"));
+            //stream.SendNext(anim.GetFloat("Speed"));
         }
         else if (stream.IsReading)
         {
