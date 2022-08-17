@@ -20,8 +20,21 @@
 - FBX 파일을 배치시키기 (전시회)
 - Open CV를 이용한 얼굴인식  (캐릭터에 얼굴을 입히는 방식) / 자기만의 캐릭터 만들기
 - 각 Room에 맞는 분위기 조성
-
-## 4. 진행사항
+## 4. Scene 구성 및 필요 기능
+ ### 01.Intro : Concept 주위를 구경할 수 있게하고 입구에 UI구성 
+ - 로그인/회원가입/입장, 가상키보드 구현 / 주요 스크립트 : Intro Manager.cs 
+ ### 02.Server : Concept 복도를 걷다가 각 기업의 매장을 구성 
+ - ( A / B / C Company ) 원하는 기업 선택 후 Join Room 클릭시 다음 03 Scene 이동 / 주요 스크립트 : Server Manager.cs
+ ### 03.Lobby : 각 기업의 특성에 따라 카테고리(방 제목) 분류 한 룸 생성 (최대 인원 설정 필요)
+ - BackGround에 깔끔한 이미지 혹은 기업이미지 / 주요 스크립트 : Lobby Manager.cs, Information.cs, LobbyCount.cs, Data.cs
+ ### 04.Show : Concept 기업의 전시회장 및 회의장
+ - 회의공간에서 화면공유 및 번역 구현하기 / 전시장에서 제품 상세 설명페이지로 이동, 구매 구현하기 
+ - 주요 스크립트 : PlayerMove.cs, GameManager.cs, DetailManager.cs, ButtonManager.cs, ~
+ ### 05.Detail : Concept 제품의 상세 모델링 Scene
+ - 제품을 상하좌우 늘리기 줄이기를 할 수 있게 하기
+ - 주요 스크립트 : SizeManager.cs
+ - 모든 Scene에는 뒤로가기 버튼 UI 필요 (LeaveManager.cs)
+## 5. 진행사항
 ### 8월 1주차 목표 : 방을 구성, 보이스챗 가능하게 하기, 캐럭터 움직이기, 화면공유
 #### 1주차 발표 내용 : 개론, 2주 뒤의 결과, 핵심기술, 게임성 컨텐츠 요소
 #### Day 1-1
