@@ -39,14 +39,14 @@
 ## 5. 진행사항
 ### 8월 1주차 목표 : 방을 구성, 보이스챗 가능하게 하기, 캐럭터 움직이기, 화면공유
 #### 1주차 발표 내용 : 개론, 2주 뒤의 결과, 핵심기술, 게임성 컨텐츠 요소
-#### Day 1-1
+#### Week 1-1
 - Photon Setting을 통해 회원가입 / 로그인 로그인 시 Lobby로 이동
 - Photon Lobby 구현 / 이름, 지역 입력 후 Room 이동
 - Photon Room 구현 / 방 생성, 최대 인원, 방파괴 설정 Game 이동
 - Photon Game 구현 / 대면 할 수 있는 공간마련
 - 추가해야 할 과제 : Photon Game에서 나가기 기능
 - 앞으로 해야할 과제 : Photon server 심화, 파파고 API 공부, 웹RTC에 대한 공부
-#### Day 1-2 (2022/ 7/ 31) (수정해야 할 사항 있음.) 
+#### Week 1-2 (수정해야 할 사항 있음.) 
 - Photon Game Scene에 Window Screen 화면 공유 구현 (다른 스크린 공유도 가능 / 활용 방안 생각해보기)
 - Photon Game Scene에 Exit 버튼 (수정 해야할 부분 : Master가 없어지는지 재접속시 화면공유가 없어짐.)
 - Photon Game Scene의 채팅창 글씨크가 해상도 강제 조절 후 이상해짐 (수정 요망)
@@ -59,20 +59,20 @@
 - 5. 플랫폼에 대한 해상도 적용하기
 - 6. 방 구성을 좀 더 다양하게 하기
 - 7. 현재 나와있는 Zoom(성민), Google 미팅(서희), 디스코드(미수), 팀뷰어, MicroSoft Teams(현기)에 대해서 조사해보기
-#### Day 1-3 (2022 /8 /1)
+#### Week 1-3 
  - 프로젝트 시작
  - 추가했으면 하는 사항 : 채팅방에 입장/퇴장 표시 (색을 이용해서 눈에 띄게), 현재 인원 보이게 하기
  - 사용자 간의 최적화가 필요하다 (매우 중요)
  - 모르는 사람이 접근을 해도 UI/UX 부분에서 충분히 설명이 필요하다
  - 다른 플랫폼이 가지지 않은 차별점을 비교 분석하면 더 좋을 것이다
-#### Day 1-4 (~2022/ 8 /5)
+#### Week 1-4
  - Google Translate API 적용해보기 (~작업중) 
-#### Day 2-1 (2022/ 8/ 8)
+#### Week 2-1 
  - Unity version 다운 후에 Room에서 Game이 안들어가는 버그 발생 (~수정중)
  - API 적용시 너무많은 UI들이 존재 줄일 방안 검토
  - 컴퓨터, 안드로이드 버전 / VR 버전을 나누어 만든 후에 만나지게 하기 (공부 중)
 ### 8월 2주차 : 3,4주차 목표 VR를 중점으로 한 ShowRoom 새로만들기 / Scene 구성, Photon 연동, 3D 모델링 업로드 하기 (PPT 자료)
-#### Day 2-2 (2022/ 8/10)
+#### Week 2-2 
  - 팀원과 상의 후 현재 프로젝트를 갈아 엎고 VR로 가상 전시회 구성하기
  - 참고 : VR CHAT 전시, XR interaction, ShowRoom 구성, Photon Server
  - 구현 할 기술 : 결제 시스템, Charactor 번역, 가상공간에서의 3D modeling 보여주기 
@@ -81,7 +81,7 @@
  - ![03  3D 상세보기](https://user-images.githubusercontent.com/102361334/183945780-d09e106a-51bd-485d-98cc-d6b27cec3a18.png)
  - ![04  결제 시스템](https://user-images.githubusercontent.com/102361334/183945816-e6142cf9-9a2e-4f17-97bc-401931910743.png)
  - ![05  캐릭터 번역](https://user-images.githubusercontent.com/102361334/183945850-0eb8b6c6-9766-45ac-ba89-66e95c149598.png)
-#### Day 2-3 (2022/ 8/ 13~14)
+#### Week 2-3 
  - Android, Oculus Quest2 세팅으로 새롭게 만들기
  - 01.Intro Playfab으로 회원가입, 로그인 하게 하기 / Photon 연동
  - 02.Server A B C Company를 선택하고 접속하게 하기
@@ -89,7 +89,7 @@
  - 04.Show 메인 전시장/회의실이 있는 ShowRoom에 접속
  - Canvas 를 WorldSpace로 구성, UI 맞춰넣기 (쉽지 않음.)
  - Blender로 각 Scene에 맞는 모델링 하기
-#### Day 2-4 (2022/8/15)
+#### Week 2-4 
  - 04.Show Scene에 Charactor 만들기 (완료) / 제품 설명 UI 띄우기 / 05.Detail Scene Load 필요
  - 05.Detail Scene 필요 (제품 상세 모델링)
 ### 8월 3-4주차 토론, 해결해야하는 내용 Scene 별로
@@ -99,19 +99,36 @@
  - 03.Lobby : UI를 두개로 구성? 1. 방 리스트 UI 2. Join, Create UI
  - 04.Show : 캐릭터가 VR로 움직여지는지 / 사진들 마다 UI 배치, 버튼 클릭시 다음 Scene로 넘어가기, 결제 UI 띄우기 / 제품 상세 설명 UI 만들기
  - 05.Detail(1~5) : 제품 3D 모습을 볼 수 있게 배치하기
- ## Day 3-1
+#### Week 3-1
  - Scene 블랜더 프리팹 입히기 UI 위치 고정하기
  - 구글 API 결제 시스템 도입하기 
  - VR로 실행 가능하게 하기 ( 3.6에선 됐는데 3.5에선 안되는 중 )
-## Day 3-2
+#### Week 3-2
  - UI 위치 조정 완료
  - 구글 API 결제 시스템 넣기 완료
  - VR로 실행 가능하기 완료 (2020.3.37f1으로 다운 그레이드)
  - VR Keyboard 넣기
-## Day 4-1
+#### Week 4-1
  - Build & Run 시 수정사항 대수 / 오류는 어떻게 해쳐 나갈 것인가?
  - 01.Scene VR Keyboard Ray 먹히지 않음, 키보드로는 먹혀서 04.Show 에 캐릭터끼리 만나지는가 확인해 볼 것.
  - Charactor의 기본 Transform 위치를 지정하기 Script는 짜놓았음 되는지 확인해 볼 것.
  - 04.Show 모델링 된 물건을 캔버스에 올리기 어떻게 할 것인가? Fbx 파일을 집어 넣을것인가?
- - 추가적 서버안정화 부분, 결제시스템 창이 뜨는가 다시 확인하기.
- 
+ - 추가적 서버안정화 부분, 결제시스템 창이 뜨는가 다시 확인하기. 
+#### Week 4-2 
+ - 모든 Scene에서의 VR Keyboard 수정 완료.
+ - Scene을 대폭 줄여보기 Lobby와 Room 생성사이 불필요 Scene 있음. (제거 완료)
+ - 01.Scene에서 서버까지 Connect 하고 02.Lobby를 로비로 바로 만들기. (완료)  
+ - 모든 Scene 꾸미기
+#### Week 4-3
+ - 01. Scene : 높은 산 뷰에서 버스를 타고 부산 바다로 가는 모습으로 표현
+ - 02. Scene : 상점들을 배치 / 광안대교와 광안리 앞바다 모습을 최대한 표현
+ - 03. Scene : 각 상점들의 주제를 정해서 3가지로 배치 (Watch Shop, Car Shop, Furniture Shop)
+ - 03. Scene : 제품들을 구경할 수 있고, 구매 할 수 있는 전시관(샵)으로 구성
+ - 각 Scene에 텔레포트 필요, 03. Scene은 캐릭터가 인스턴트 되는지 봐야 함.
+#### Week 4-4
+ - 소비자 / 구매자 두 가지의 빌드를 해서 소비자와 구매자를 구분필요.
+ - 소비자는 구매 및 제품 구경이 가능 해야하고, 공급자는 제품 배치 및 판매 등록을 할 수 있어야함. (AWS DB 이용 할 예정)
+ - 구글 번역 및 TTS를 통해서 번역 및 번역한 말을 TTS로 나오게 해야함. (구글 번역 성공)
+#### Week 5-1
+ - 소비가 / 구매자 두 가지 빌드 완성 (AWS는 오류가 있어서 Playfab DB로 구성)
+ - Asset 구매 완료되면 해결 될 문제 들 다수
